@@ -1,0 +1,16 @@
+#zoomIn:hover {
+    cursor: pointer
+}
+
+#zoomOut:hover {
+    cursor: pointer
+}
+
+#highlight:hover {
+    cursor: pointer
+}
+
+
+.highlight {
+    background-color: #FFFF00;
+}
