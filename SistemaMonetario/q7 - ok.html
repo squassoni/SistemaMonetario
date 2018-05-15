@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/core.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="corfundo">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">SISTEMA MONETÁRIO BRASILEIRO</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li>
+                    <a href="#">
+                        <img src="assets/imagens/grupo.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/imagens/grupo2.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/imagens/grupo.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/imagens/grupo2.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="right-align" style="right:0;position: absolute;">
+                <li>
+                    <a href="#">
+                        <img src="assets/imagens/calc.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/imagens/regua2.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default   ">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default   ">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default   ">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default   ">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default   ">zoom_out</i>
+                </li>
+
+                <li id="highlight">
+                    <i class="material-icons">border_color</i>
+                    <!-- Quando for colocar a imagem, retirar a linha do <i></i> e adicionar a imagem -->
+                    <!-- usar a tag "alt" na imagem -->
+                </li>
+                <li id="zoomIn">
+                    <i class="material-icons">zoom_in</i>
+                </li>
+                <li id="zoomOut">
+                    <i class="material-icons">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default">zoom_out</i>
+                </li>
+
+                
+            </ul>
+
+        </div>
+    </nav>
+    <div class="row divContent" style="background-color:white;border-left: 30px solid #A9A9A9;border-right: 30px solid #A9A9A9; border-top: 26px solid #A9A9A9;border-bottom:8px solid #A9A9A9">
+        
+        <div class="col m12 s12 center-align">
+            
+
+            <h3>QUAL VALOR DA SOMA?</h3>
+            
+            <img width="560" height="315" src="https://www.bcb.gov.br/novasnotas/assets/img/section/20/20_front.jpg" frameborder="0"></img><h1>+</h1><img width="560" height="315" src="http://2.bp.blogspot.com/-ludtIz6Qf6s/TwRVkIeSEcI/AAAAAAAAEeY/KXSRFJe0Cbg/s1600/nota_cem_reais.jpg" frameborder="0"></img><h1>
+
+        </div>
+        <div clas="col m12 s12 center-align">
+            <form id="exercicio1">
+                <input type="text" id="opcao1" name="opcao">  </input>
+                <br><button type="submit" onclick="teste()">CONFIRMAR</button>
+            </form>
+           <a href="q8.html"> <button a="">PRÓXIMA PERGUNTA</button>
+        
+        </div>
+    </div>
+
+   
+
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/core.js"></script>
+    <script>
+        function teste(){
+        var option = $('[name=opcao]').val();
+        if (option == "120") {alert("MUITO BEM!")}
+        else {alert("TENTE NOVAMENTE!")}}
+        
+</script>
+</body>
+
+</html>
