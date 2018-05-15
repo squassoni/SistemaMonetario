@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/core.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/activity7.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="corfundo">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">SISTEMA MONETÁRIO BRASILEIRO</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li>
+                    <a href="activities.html">
+                        <img src="assets/imagens/grupo.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/imagens/grupo2.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/imagens/grupo.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/imagens/grupo2.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="right-align" style="right:0;position: absolute;">
+                <li>
+                    <a href="#">
+                        <img src="assets/imagens/calc.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/imagens/regua2.png" alt="" width="60px" height="60px">
+                    </a>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default   ">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default   ">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default   ">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default   ">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default   ">zoom_out</i>
+                </li>
+
+                <li id="highlight">
+                    <i class="material-icons">border_color</i>
+                    <!-- Quando for colocar a imagem, retirar a linha do <i></i> e adicionar a imagem -->
+                    <!-- usar a tag "alt" na imagem -->
+                </li>
+                <li id="zoomIn">
+                    <i class="material-icons">zoom_in</i>
+                </li>
+                <li id="zoomOut">
+                    <i class="material-icons">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default">zoom_out</i>
+                </li>
+                <li id="">
+                    <i class="material-icons" style="opacity:0;cursor:default">zoom_out</i>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+    <div class="row divContent" style="height:1630px;background-color:white;border-left: 30px solid #A9A9A9;border-right: 30px solid #A9A9A9; border-top: 26px solid #A9A9A9;border-bottom:8px solid #A9A9A9">
+        <div>
+            <h3>
+                <button id="reset">Recomeçar</button>
+                <button id="hint">Dica</button>
+            </h3>
+            <h1>Arraste as notas para os lugares certos em ordem crescente</h1>
+
+            <targetBox>
+                <target id="doisTarget"></target>
+            </targetBox>
+            <targetBox style="top:570px;">
+                <target id="cincoTarget"></target>
+            </targetBox>
+            <targetBox style="top:800px;">
+                <target id="dezTarget"></target>
+            </targetBox>
+            <targetBox style="top:1030px;">
+                <target id="vinteTarget"></target>
+            </targetBox>
+            <targetBox style="top:1260px;">
+                <target id="cinquentaTarget"></target>
+            </targetBox>
+            <targetBox style="top:1490px;">
+                <target id="cemTarget"></target>
+            </targetBox>
+            <div class="bar" id="dois">
+                <img src="assets/imagens/2.jpg" width="100%" height="100%">
+            </div>
+            <div class="bar" id="cinco">
+                <img src="assets/imagens/5.jpg" width="100%" height="100%">
+            </div>
+            <div class="bar" id="dez">
+                <img src="assets/imagens/10.jpg" width="100%" height="100%">
+            </div>
+            <div class="bar" id="vinte">
+                <img src="assets/imagens/20.jpg" width="100%" height="100%">
+            </div>
+            <div class="bar" id="cinquenta">
+                <img src="assets/imagens/50.jpg" width="100%" height="100%">
+            </div>
+            <div class="bar" id="cem">
+                <img src="assets/imagens/100.jpg" width="100%" height="100%">
+            </div>
+
+            <h4>
+                <button id="sendResult" style="display:none;"><a href="activity8.html">Próxima fase</a></button>
+            </h4>
+
+        </div>
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/core.js"></script>
+    <script type="text/javascript" src="assets/js/activity7.js"></script>
+</body>
+
+</html>
